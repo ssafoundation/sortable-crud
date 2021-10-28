@@ -1,0 +1,83 @@
+a.nav-link {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e9ecefc4;
+  margin-bottom: 7px;
+  padding: 15px;
+}
+
+.list__card-right--name {
+  margin-bottom: 5px;
+  border: 1px dashed #0a58ca57;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.list__card-right--description {
+  margin-bottom: 5px;
+  border: 1px dashed #0a58ca57;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.list__card-right {
+  width: 75%;
+}
+
+.action-btn-area {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+
+.edit-Action-btn a {
+  display: block;
+}
+
+.action-btn-area>div>a:last-child {
+  margin-bottom: 0;
+}
+
+.form-check input {
+  height: 20px;
+  width: 20px;
+}
+
+.edit-Action-btn button {
+  border: none;
+  background: #6c757d;
+  margin-bottom: 5px;
+  color: #fff;
+  padding: 5px 15px;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  width: 80px;
+  height: 40px;
+}
